@@ -7,6 +7,20 @@
     
 }
 
+hr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* logo, nav bar buttons and styling */
+
+.logo {
+    height: auto;
+    width: auto;
+    float: left;
+}
+
 .nav-bar {
     height: 100px;
     background: rgba(70, 90, 250, 0.5);
@@ -47,12 +61,15 @@
     border-radius: 25%;
 }
 
-.logo {
-    height: auto;
-    width: auto;
-    float: left;
-}
-
 .active {
     text-decoration: underline;
+}
+
+/* hero image */
+
+#hero-image {
+    background: url(../images/idea-heroimage.jpg);
+    height: 600px;
+    width: 100%;
+    position: relative;
 }
