@@ -16,6 +16,7 @@ hr {
 /* logo, nav bar buttons and styling */
 
 .logo {
+    Padding-top: 15px;
     height: auto;
     width: auto;
     float: left;
@@ -40,7 +41,7 @@ hr {
     display: inline;
     list-style-type: none;
     margin-right: 40px;
-    margin-top: 25px;
+    margin-top: 40px;
     float: right;
 }
 
@@ -72,4 +73,61 @@ hr {
     height: 600px;
     width: 100%;
     position: relative;
+}
+
+/* hero text */
+
+#hero-text-header {
+    font-size: 150%;
+
+    background-color: rgba(70, 90, 250, 0.8);
+    color: #ffa500;
+    
+
+    top: 150px;
+    left: 30px;
+    position: absolute;
+}
+
+.hero-text-1 {
+    font-size: 120%;
+
+    background-color: rgba(70, 90, 250, 0.8);
+    color: #ffa500;
+    
+
+    top: 250px;
+    left: 30px;
+    position: absolute;
+}
+p.hero-text-1 {
+    top: 290px;
+}
+
+.hero-text-2 {
+    font-size: 120%;
+
+    background-color: rgba(70, 90, 250, 0.8);
+    color: #ffa500;
+
+    top: 350px;
+    left: 30px;
+    position: absolute;
+}
+p.hero-text-2 {
+    top: 390px;
+}
+
+.hero-text-3 {
+    font-size: 120%;
+
+    background-color: rgba(70, 90, 250, 0.8);
+    color: #ffa500;
+
+    top: 450px;
+    left: 30px;
+    position: absolute;
+}
+p.hero-text-3 {
+    top: 490px;
 }
