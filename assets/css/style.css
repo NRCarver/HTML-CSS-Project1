@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-bar {
     height: 80px;
     background: rgba(70, 90, 250, 0.5);
@@ -9,15 +14,30 @@
     font-size: 120%;
     letter-spacing: 3px;
     float: right;
-    line-height: 50px;
+    line-height: 40px;
+    position: absolute;
 }
 
 .menu li {
     display: inline;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .menu a {
     text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    
+}
+
+.menu-buttons {
+    height: 50px;
+}
+.menu-buttons:hover {
+    background-color: rgb(84, 248, 152);
+    padding: 25px 15px;
+    border-radius: 25px;
 }
