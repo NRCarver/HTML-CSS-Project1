@@ -43,36 +43,38 @@
             
             <h2>Submit your LifeHack!</h2>
             
-            <label for="fname">First Name</label>
-            <input class="text-input" type="text" id="fname" name="first_name" required>
+            <label for="fname" class="form-text">First Name</label>
+            <input class="text-input-box" type="text" id="fname" name="first_name" required>
             
-            <label for="lname">Last Name</label>
-            <input class="text-input" type="text" id="lname" name="last_name" required>
+            <label for="lname" class="form-text">Last Name</label>
+            <input class="text-input-box" type="text" id="lname" name="last_name" required>
             
-            <label for="email">Email Address</label>
-            <input class="text-input" type="email" id="email" name="email_address" required>
+            <label for="email" class="form-text">Email Address</label>
+            <input class="text-input-box" type="email" id="email" name="email_address" required>
 
-            <h3>Type of Hack</h3>
+            <label for="lifehack" class="form-text">LifeHack:</label>
+            <input class="text-input-box" type="text" id="lifehack" name="lifehack" required>
+
+            <h3 class="form-text">Type of Hack</h3>
             
-            <label for="road">Food</label>
-            <input type="radio" id="road" name="running_preference" value="road">
+            <label for="food" class="form-text">Food</label>
+            <input type="radio" id="food" name="lifehack_type" value="food">
 
             
-            <label for="trail">Travel</label>
-            <input type="radio" id="trail" name="running_preference" value="trail">
+            <label for="travel" class="form-text">Travel</label>
+            <input type="radio" id="travel" name="lifehack_type" value="travel">
             
-            <label for="both">Home</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
+            <label for="home" class="form-text">Home</label>
+            <input type="radio" id="home" name="lifehack_type" value="home" required>
 
-            <label for="both">Other</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
+            <label for="other" class="form-text">Other</label>
+            <input type="radio" id="other" name="lifehack_type" value="other">
             
             <input class="join-button" type="submit" value="Submit LifeHack">
         </form>
         
-        
     </section>
-    
+
 </div>
 
     <footer>
