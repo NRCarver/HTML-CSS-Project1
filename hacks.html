@@ -37,9 +37,38 @@
 <hr>
 
 <div class="content">
-<section><h1>Hack 1</h1></section>
-<section>Hack 2</section>
-<section>Hack 3</section>
+
+<Section>
+    <h1>LifeHacks:</h1>
+    <p>Click on the category of hack below to see the hacks. We look forward to adding yours to our growing list!</p>
+</Section>
+<section>
+    <button type="button" class="collapsible">Food Hacks</button>
+        <div class="button-content">
+            <ul>
+                <li>Eat Bananas</li>
+                <li>Eat Bananas</li>
+                <li>Eat Bananas</li>
+            </ul>
+        </div>
+
+        <button type="button" class="collapsible">Travel Hacks</button>
+        <div class="button-content">
+            <ul>
+                <li>Eat Bananas</li>
+                <li>Eat Bananas</li>
+                <li>Eat Bananas</li>
+            </ul>
+        </div>
+
+        <button type="button" class="collapsible">Home Hacks</button>
+        <div class="button-content">
+            <ul>
+                <li>Eat Bananas</li>
+                <li>Eat Bananas</li>
+                <li>Eat Bananas</li>
+            </ul>
+        </div>
 
 
 <footer>
@@ -63,6 +92,24 @@
     </ul>
 </footer>
 </div>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+}
 
 
 <!-- font awesome script -->
