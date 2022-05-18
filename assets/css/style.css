@@ -231,17 +231,16 @@ footer {
     background: url("../images/submit-hacks-backgroundnew-smaller.jpg");
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 750px;
 }
 
 .submit-form {
-    margin: 150px 5% 0 175px;
+    margin: 150px 5% 0 5%;
     color: rgba(245, 245, 245, 1);
     background-color: rgba(70, 90, 250, 1);
     max-width: 400px;
     position: absolute;
     padding: 20px;
-    left: 5%;
     border-radius: 1rem;
 }
 
@@ -270,13 +269,12 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: rgb(190, 24, 114);
     color: rgba(245, 245, 245, 1);
     display: block;
     border-radius: 0.3rem;
 }
 
 .join-button:hover {
-    background-color: whitesmoke;
-    color: #f16c6b;
+    color: black;
 }
