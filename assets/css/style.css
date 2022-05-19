@@ -18,6 +18,7 @@ header {
     top: 0;
 }
 
+
 .nav-bar {
     height: 100px;
     width: 100%;
@@ -25,7 +26,6 @@ header {
     background: rgba(70, 90, 250, 1);
     float: right;
     top: 0;
-    display:flexbox;
     border-bottom: 3px solid black;
      }
 
@@ -34,7 +34,9 @@ header {
         height: 100px;
         width: 200px;
         float: left;
+        left: 0px;
         z-index: 3;
+        position:
     }
 
 .menu {
@@ -57,23 +59,6 @@ header {
 	display: none;
 }
 
-/* .topnav {
-	background-color: rgba(162, 215, 255, 0.8);
-	overflow: hidden;
-}
-
-.topnav a {
-	float: left;
-	display: inline;
-	color: #f8f8f8;
-	text-align: center;
-	font-family: 'Raleway', sans-serif;
-	padding: 10px 10px;
-	text-decoration: none;
-	font-size: 15px;
-}
-
-*/
 .menu a:hover {
     text-decoration: underline; 
 }
@@ -325,22 +310,23 @@ footer {
         position: relative;
         float: none;
         clear: left;
-        left: 25%;
-        right: 25%;
+        left: 5%;
+        right: 5%;
         
     }
 
-.hero-text-left {
+    .hero-text-left {
     top: 250px;
     position: relative;
     float: none;
     clear: left;
-    left: 25%;
-    right: 25%;
+    left: 10%;
+    right: 10%;
+    display: block;
     
 }
 
-#hero-image {
+    #hero-image {
     background-image: url("../images/idea-heroimage-comp.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -349,7 +335,7 @@ footer {
     height: 1100px;
 }
 
-.submit-form {
+    .submit-form {
     margin: 100px 25% 0 25%;
     color: rgba(245, 245, 245, 1);
     background-color: rgba(70, 90, 250, 1);
@@ -359,10 +345,14 @@ footer {
     border-radius: 1rem;
 }
 
-.nav-bar {
+    .nav-bar {
     height: 100px;
     width: 100%;
      }
+
+    .menu {
+    width: 200px;
+}
 
      .menu a:not(:first-child) {
 		display: none;
@@ -370,6 +360,7 @@ footer {
 
     .menu a {
 		float: right;
+        top: 100px;
 	}
 
 	.menu a.icon {
@@ -379,18 +370,41 @@ footer {
 
 	.menu.responsive {
 		position: relative;
-	}
+        background-color: rgba(255, 255, 255, 0.75);
+        display: flexbox;
+        flex-direction: column-reverse;
+        width: 200px;
+        height: 300px;
+        border-radius: 1rem;
+        
 
-	.menu.responsive a.icon {
-		position: absolute;
-		right: 0;
-		top: 0;
 	}
 
 	.menu.responsive a {
 		float: none;
 		display: block;
 		text-align: left;
+        margin-left: 10px;
+        font-size: 75%;
 	}
 
+    .menu.responsive a.icon {
+		position: static;
+		right: 0;
+		top: 0;
+        padding: 0;
+	}
+
+    .visually_hidden {
+        font-size: 175%;
+    }
+
 }
+
+@media screen and (max-width: 400px) {
+
+    .nav-bar {
+        height: 200px;
+        width: 100%;
+         }
+        }
