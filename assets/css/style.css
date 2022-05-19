@@ -42,19 +42,38 @@ header {
     letter-spacing: 3px;
     line-height: 40px;
     float: right;
-}
-
-.menu li {
-    list-style-type: none;
-    margin-right: 40px;
-    margin-top: 35px;
-    float: right;
+    overflow: hidden;
 }
 
 .menu a {
+    margin-right: 40px;
+    margin-top: 35px;
+    float: right;
     text-decoration: none;
+    display: inline;
 }
 
+.menu .icon {
+	display: none;
+}
+
+/* .topnav {
+	background-color: rgba(162, 215, 255, 0.8);
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	display: inline;
+	color: #f8f8f8;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	padding: 10px 10px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+*/
 .menu a:hover {
     text-decoration: underline; 
 }
@@ -302,7 +321,7 @@ footer {
 
 @media screen and (max-width: 800px) {
     .hero-text-right {
-        top: 300px;
+        top: 350px;
         position: relative;
         float: none;
         clear: left;
@@ -312,7 +331,7 @@ footer {
     }
 
 .hero-text-left {
-    top: 200px;
+    top: 250px;
     position: relative;
     float: none;
     clear: left;
@@ -339,5 +358,39 @@ footer {
     padding: 20px;
     border-radius: 1rem;
 }
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+     }
+
+     .menu a:not(:first-child) {
+		display: none;
+	}
+
+    .menu a {
+		float: right;
+	}
+
+	.menu a.icon {
+		float: right;
+		display: block;
+	}
+
+	.menu.responsive {
+		position: relative;
+	}
+
+	.menu.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.menu.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
 
 }
