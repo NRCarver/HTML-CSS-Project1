@@ -6,3 +6,5 @@ hero image and submit image - https://www.pexels.com/photo/clear-light-bulb-plac
 Footer html from the Love Running project
 
 Collapsible list code from - https://www.w3schools.com/howto/howto_js_collapsible.asp
+
+collapsible nav bar code used from - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
