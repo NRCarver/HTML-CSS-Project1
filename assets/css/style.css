@@ -36,7 +36,7 @@ header {
         float: left;
         left: 0px;
         z-index: 3;
-        position:
+        position: fixed;
     }
 
 .menu {
@@ -371,8 +371,6 @@ footer {
 	.menu.responsive {
 		position: relative;
         background-color: rgba(255, 255, 255, 0.75);
-        display: flexbox;
-        flex-direction: column-reverse;
         width: 200px;
         height: 300px;
         border-radius: 1rem;
@@ -407,4 +405,13 @@ footer {
         height: 200px;
         width: 100%;
          }
+        }
+
+        #hero-image {
+            background-image: url("../images/idea-heroimage-comp.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 1400px;
         }
