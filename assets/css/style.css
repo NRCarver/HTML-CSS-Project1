@@ -26,6 +26,7 @@ header {
     float: right;
     top: 0;
     display:flexbox;
+    border-bottom: 3px solid black;
      }
 
  .logo {
@@ -37,7 +38,7 @@ header {
     }
 
 .menu {
-    font-size: 100%;
+    font-size: 80%;
     letter-spacing: 3px;
     line-height: 40px;
     float: right;
@@ -93,18 +94,19 @@ header {
     left: 5%;
     color: rgba(245, 245, 245, 1);
     background-color: rgba(70, 90, 250, 1);
-    max-width: 400px;
+    max-width: 300px;
     position: relative;
     padding: 20px;
     border-radius: 1rem;
     line-height: 1.6;
+    float: left;
 }
 
 .hero-text-right {
-    top: -55px;
+    top: 200px;
     color: rgba(245, 245, 245, 1);
     background-color: rgba(70, 90, 250, 1);
-    max-width: 400px;
+    max-width: 300px;
     position: relative;
     padding: 20px;
     border-radius: 1rem;
@@ -121,6 +123,7 @@ footer {
     padding: 0;
     border: 0;
     margin: 0;
+    margin-top: 1px solid black;;
 }
 
 .social-networks {
@@ -210,7 +213,7 @@ footer {
 
   /* Submit Hacks Form */
 
-  .form {
+  .form-background {
     clear: left;
     background: url("../images/submit-hacks-backgroundnew-smaller.jpg");
     background-attachment: fixed;
@@ -266,3 +269,75 @@ footer {
 }
 
 
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+    .hero-text-right {
+        top: 200px;
+        color: rgba(245, 245, 245, 1);
+        background-color: rgba(70, 90, 250, 1);
+        max-width: 250px;
+        position: relative;
+        padding: 20px;
+        border-radius: 1rem;
+        line-height: 1.6;
+        float: right;
+        
+    }
+
+.hero-text-left {
+    top: 200px;
+    left: 5%;
+    color: rgba(245, 245, 245, 1);
+    background-color: rgba(70, 90, 250, 1);
+    max-width: 250px;
+    position: relative;
+    padding: 20px;
+    border-radius: 1rem;
+    line-height: 1.6;
+    float: left;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+    .hero-text-right {
+        top: 300px;
+        position: relative;
+        float: none;
+        clear: left;
+        left: 25%;
+        right: 25%;
+        
+    }
+
+.hero-text-left {
+    top: 200px;
+    position: relative;
+    float: none;
+    clear: left;
+    left: 25%;
+    right: 25%;
+    
+}
+
+#hero-image {
+    background-image: url("../images/idea-heroimage-comp.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1100px;
+}
+
+.submit-form {
+    margin: 100px 25% 0 25%;
+    color: rgba(245, 245, 245, 1);
+    background-color: rgba(70, 90, 250, 1);
+    max-width: 400px;
+    position: absolute;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+}
