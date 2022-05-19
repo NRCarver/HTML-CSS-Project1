@@ -2,6 +2,7 @@
 
 *    {
     font-family: Montserrat, Calibri, sans-serif;
+    border: 0;
     margin: 0;
     padding: 0;
     color: black;
@@ -14,9 +15,7 @@ hr {
     border: 0;
 }
 
-.content {
-    margin-top: 100px;
-}
+
 
 /* logo, nav bar buttons and styling */
 
@@ -24,6 +23,7 @@ header {
     position: fixed;
     z-index: 2;
     width: 100%;
+    top: 0;
 }
 
 .nav-bar {
@@ -33,18 +33,19 @@ header {
     background: rgba(70, 90, 250, 1);
     float: right;
     top: 0;
+    display: block;
      }
 
-    .logo {
+ .logo {
     
-        height: auto;
-        width: auto;
+        height: 100px;
+        width: 200px;
         float: left;
         z-index: 3;
     }
 
 .menu {
-    font-size: 120%;
+    font-size: 100%;
     letter-spacing: 3px;
     line-height: 40px;
     float: right;
@@ -81,25 +82,47 @@ header {
 /* hero image */
 
 #hero-image {
-    background: url(../images/idea-heroimage.jpg);
+    background-image: url("../images/idea-heroimage-comp.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 600px;
-    width: 100%;
-    position: relative;
 }
-
 /* hero text */
 
-#hero-text-header {
-    font-size: 150%;
-
-    background-color: rgba(70, 90, 250, 0.9);
+.hero-text-left {
+    margin: 250px 5% 0 5%;
     color: rgba(245, 245, 245, 1);
-    
-
-    top: 200px;
-    left: 30px;
-    position: absolute;
+    background-color: rgba(70, 90, 250, 1);
+    max-width: 400px;
+    position: relative;
+    padding: 20px;
+    border-radius: 1rem;
 }
+
+.hero-text-right {
+    margin: 150px 5% 0 5%;
+    color: rgba(245, 245, 245, 1);
+    background-color: rgba(70, 90, 250, 1);
+    max-width: 400px;
+    position: relative;
+    padding: 20px;
+    border-radius: 1rem;
+    float: right;
+}
+
+
+#hero-text-header {
+
+        background: transparent;
+        color: rgba(245, 245, 245, 1);
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 25px 0;
+        border: 1px solid black;
+        border-radius: 2px;
+    }
 
 .hero-text-1 {
     font-size: 120%;
@@ -163,7 +186,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 100%;
+    font-size: 150%;
     margin: 1%;
     padding: 1%;
     color: black;
@@ -195,12 +218,12 @@ footer {
 /* Hacks page - Collapsible Buttons */
 
 .collapsible {
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(70, 90, 250, 0.8);
     color: #444;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border-bottom: none;
+    border-bottom: 1px solid black;
     text-align: center;
     outline: none;
     font-size: 15px;
@@ -221,7 +244,7 @@ footer {
   }
 
   .button-text {
-      margin-left: 20px;
+      padding-left: 20px;
   }
 
   /* Submit Hacks Form */
@@ -229,8 +252,10 @@ footer {
   .form {
     clear: left;
     background: url("../images/submit-hacks-backgroundnew-smaller.jpg");
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 750px;
 }
 
