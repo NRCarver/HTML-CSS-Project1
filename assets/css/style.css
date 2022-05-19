@@ -127,7 +127,7 @@ footer {
     padding: 0;
     border: 0;
     margin: 0;
-    margin-top: 1px solid black;;
+    border-top: 3px solid black;
 }
 
 .social-networks {
@@ -154,10 +154,13 @@ footer {
     text-align: center;
     font-size: 200%;
     text-decoration: underline;
-    letter-spacing: 1.6;
     line-height: 40px;
     background-color: rgba(70, 90, 250, 1);
-    
+    border: 0;
+}
+
+.hacks-title-box {
+    background-color: rgba(70, 90, 250, 1);
 }
 
 #hacks-text {
@@ -167,6 +170,7 @@ footer {
     letter-spacing: 2px;
     text-align: center;
     background-color: rgba(70, 90, 250, 1);
+    border:0;
 }
 
 /* Hacks page - Collapsible Buttons */
@@ -213,6 +217,8 @@ footer {
 
   .button-text {
       padding-left: 20px;
+      font-size: 120%;
+      font-weight: 800;
   }
 
   /* Submit Hacks Form */
