@@ -148,7 +148,7 @@ footer {
 
 /* Hacks page - Collapsible Buttons Content */
 
-#hacks-title {
+#hacks {
     padding: 20px;
     color: black;
     text-align: center;
@@ -405,7 +405,7 @@ footer {
         height: 200px;
         width: 100%;
          }
-        }
+        
 
         #hero-image {
             background-image: url("../images/idea-heroimage-comp.jpg");
@@ -415,3 +415,4 @@ footer {
             background-repeat: no-repeat;
             height: 1400px;
         }
+    }
