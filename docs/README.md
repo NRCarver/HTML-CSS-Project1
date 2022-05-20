@@ -1,22 +1,3 @@
-Logo created with - https://www.freelogodesign.org/
-
-hero image and submit image - https://www.pexels.com/photo/clear-light-bulb-placed-on-chalkboard-355952/
-                            - https://www.pexels.com/photo/white-bubble-illustration-1111372/
-
-Footer html from the Love Running project
-
-Collapsible list code from - https://www.w3schools.com/howto/howto_js_collapsible.asp
-
-collapsible nav bar code used from - https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
-
-Code for the form is based on the code used in Love Running
-
-
-
-Bugs: cant get the bar switched round.
-Struggled with a extra bar of white space under my project header.
-
-
 Code Institute: Project 1 using HTML and CSS
 
 Visit the website here
@@ -74,6 +55,18 @@ My website aims to fit all of these. The navigation of the site is clear and sim
 
 Given that I have such a large age range as my target audience, I chose to keep the colour scheme quite simple so that it should appeal to all.
 
+Based off all of this my user stories are:
+
+1. As a new visitor, I want to browse all the information available to see.
+
+2. As a new user, I am looking for a specific life hack to improve a specific problem.
+
+3. As a new user, I want to know what life hacks are.
+
+4. As a repeat visitor, I want to see what content is new.
+
+5. As a repeat visitor, I want to submit a hack I have.
+
 Scope
 
 With my business goals and desired users defined I decided what I wanted to include in my project now, and what would have to wait till a later release. The features I wanted to make now were:
@@ -100,7 +93,7 @@ I also wanted to put in a collapsible navigation menu for smaller screens so the
 
 Surface
 
-Given the broad target audience, I chose blue as my primary colour and white and pink as secondary colours. I did want the site to be confident so selected a strong shade of blue (245, 245, 245) and light background images to give the site an appealing contrast. All of the buttons.
+Given the broad target audience, I chose blue as my primary colour and white and pink as secondary colours. I did want the site to be confident so selected a strong shade of blue rgb(245, 245, 245) and light background images to give the site an appealing contrast. All of the buttons.
 
 I chose my main font as Montserrat from Google Fonts. It is a strong font originally developed from old posters and signs and so would fit the purpose well of easily digestible short chunks of information.
 
@@ -123,6 +116,8 @@ The Hacks section has a title and a sentance of text encouraging the user to sel
 Submit Your Hacks
 
 The submission section has a form on background hero image with a grading pink colour. Again I used a parrallax effect on the background and it contrast nicely from the white of the above sections. The form asks for the users information so we can keep in touch with them and give credit for the hack that they are submitting. The form requires 3 text elements, 1 email element and a radio button selection to describe the type of hack you are submitting. I used the same colour scheme here but with white text on the blue background as it matches the white thought bubble in the image and makes the form more appealing, hopefully leading to more submissions.
+
+
 
 Technologies used
 
@@ -152,3 +147,97 @@ Optimizilla Image Compressor - Used to compress the images.
 
 TESTING
 
+1. As a new visitor, I want to browse all the information available to see.
+
+    - The user can navigate to the 'Hacks' section of the page.
+    - The user can see all of the available categories of Life Hack on the website.
+    - The user can clearly see all of the hacks inside each individual category.
+
+2. As a new user, I am looking for a specific life hack to improve a specific problem.
+
+    - The user can navigate to the 'Hacks' section of the page.
+    - The user can find the specific category of Life Hack they are looking for.
+    - The user can clearly see all of the hacks inside each individual category and if any are useful.
+
+3. As a new user, I want to know what life hacks are.
+
+    - The user can navigate to website.
+    - On the first page is a description of what a Life Hack is and the scope of them.
+
+4. As a repeat visitor, I want to see what content is new.
+
+    - The user can navigate to the 'Hacks' section of the page.
+    - The user can open all relvant categories to check the information inside.
+    - In the future I would like to add the ability to order the hacks by age, popularity and other criteria.
+
+5. As a repeat visitor, I want to submit a hack I have.
+
+    - The user can navigate to the 'Submit Hack' section of the page.
+    - The user can fill out the form to enter all of their information.
+    - The form will prompt the user if any fields are left blank or are formatted incorrectly.
+
+
+Code Validation and Testing
+
+Testing was a continuous process throughout building the website so it is hard to document every action. With I every couple of lines of new code, I would refresh and check the website and correct my frequent mistakes.
+
+With the completed version of the website, I used three forms of validations to check my code 
+
+*********************************************************************
+
+I used the W3C Markup Validation Service and W3C CSS Validation Service to check my code. I used these periodically to check my code and there are no errors present in the final version.
+
+I have manually checked that the website is working on different browsers 
+    - Chrome
+    - Microsoft Edge
+    - Internet Explorer
+    - Safari
+
+For further testing, I also asked 5 friends and family members to have a look through the site and see if they could find any issues and none of them reported any.
+
+Accesibility
+
+To check the accesibility of my website I used 'Lighthouse' on Chrome Dev tools and also Color Contrast Accesibility Validator was used to check the colour contrast on the project.
+
+The initial shade of blue (rgb(245, 245, 245)) did not pass through the colour accessibility validator with the black text so i changed it to a lighter shade - rgb(100, 118, 253). This shade passed through the validator as it now has a suitable contrast with black text.
+
+Deployment 
+
+The website is hosted in GitHub pages and deployed directly from the master branch. Any new commits made will be automatically deployed to the website.
+
+Gitpod was used to develop the project with my code then commited to Git and then pushed through to Github. In Github I deployed by changing the 'Source' from 'None' to 'Main'. This option can be found at:
+"https://github.com/NRCarver/HTML-CSS-Project1" > Settings > Pages > Source.
+
+After changing the setting you must wait a few minutes and then the deployed website can be accessed.
+
+Credits
+
+Content
+
+All content for the website was written by myself (Nicholas Carver) and some of the Life Hacks used here were found on 'lifehacks.org' in their article "200 Incredible Life Hacks That Make Life So Much Easier" (https://www.lifehack.org/articles/lifestyle/100-life-hacks-that-make-life-easier.html)
+
+Code
+
+I used and slightly adapted JavaScript code to create my collapsible Navigation bar button and my collapsible 'Hacks' buttons. The original code can be found here:
+
+- https://www.w3schools.com/howto/howto_js_collapsible.asp
+
+- https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+
+My Footer code was adapted from the Code taught by Anna Greaves in the 'Love Running' Project at Code Institute.
+
+Media
+
+My Logo was created using Free Logo Design (https://www.freelogodesign.org/)
+
+All Icons used are from FontAwesome (https://fontawesome.com/)
+
+All images used were found on Pexels.com
+    - https://www.pexels.com/photo/clear-light-bulb-placed-on-chalkboard-355952/
+    - https://www.pexels.com/photo/white-bubble-illustration-1111372/
+
+
+hero image and submit image - https://www.pexels.com/photo/clear-light-bulb-placed-on-chalkboard-355952/
+                            - https://www.pexels.com/photo/white-bubble-illustration-1111372/
+
+I would also like to thank Guido Cecilio for all his help and guidance throughout this project.
