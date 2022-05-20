@@ -145,6 +145,8 @@ W3C CSS Validation Service - Used to validate all of my CSS code.
 
 Optimizilla Image Compressor - Used to compress the images.
 
+
+
 TESTING
 
 1. As a new visitor, I want to browse all the information available to see.
