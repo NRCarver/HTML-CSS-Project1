@@ -201,7 +201,7 @@ Below are website images for reference with the UX Stories Testing.
     - The form will prompt the user if any fields are left blank or are formatted incorrectly.
 
 
-# Code Validation
+# Testing and Code Validation
 
 Testing was a continuous process throughout building the website so it is hard to document every action I took. With I every couple of lines of new code, I would refresh and check the website and correct my frequent mistakes, constantly using Chrom Dev Tools.
 
@@ -220,6 +220,14 @@ I have manually checked that the website is working on different browsers
     - Safari
 
 For further testing, I also asked 5 friends and family members to have a look through the site and see if they could find any issues and none of them reported any.
+
+## Bugs 
+
+I managed to avoid most large bugs by continually testing and reviewing the website in the browser but I did have two specific bugs that took a took a signifigant time to correct. One of them I was able to solve and the other I created a work around for.
+
+1. I had an issue with extra white space on my initial landing page. This was due to me incorrectly assigning .hero-text-left with a padding-top value of 200px rather than a margin as it should have been. After correcting the bug, the landing page was fixed.
+
+2. When I introduced the collapsible button for my Nav bar, the options were listed in reverse order, with 'Home' at the bottom and 'Submit Hacks' at the top. I had ordered them this way initially so they looked correct on expanded Nav bar. Unfortunately I couldnt find a way to reverse the order of the buttons when the Nav bar changes to a collapsible button. My work around with this was to reverse the order of the expanded Nav bar which now places 'Home' furthest right and 'Submit Hacks' furthest left. Ideally I would like to change this in a later version.
 
 ## Accesibility
 
